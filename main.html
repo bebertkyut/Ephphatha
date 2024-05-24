@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Ephphatha</title>
+</head>
+<body onload="displayPicture()">
+  <div class="container">
+    <h1>EPHPHATHA TRANSLATOR</h1>
+    <div class="inputs">
+        <input type="text" id="videoNames" placeholder="Enter video names separated by space">
+        <button onclick="playVideos()">Play Videos</button>
+    </div>
+    <div class="centered">
+        <div id="videoPlayer"></div>
+        <div id="videoTitle"></div>
+    </div>
+    <div class="record-button">
+      <a href="#" onclick="record()"><img src="b2.png"alt="Record Button"></a>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
